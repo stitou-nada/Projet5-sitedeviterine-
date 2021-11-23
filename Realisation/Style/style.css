@@ -1,0 +1,21 @@
+
+img{
+    max-width: 100%;
+    width: 100%;
+}
+ li{
+     list-style-type: none;
+     display: flex;
+     flex-direction: row;
+    }
+h1{
+   text-align: center;
+   font-weight: bold;
+   
+}
+h2{
+ text-align: center;
+}
+.paraghraph{
+
+}
