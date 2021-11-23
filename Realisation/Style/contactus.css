@@ -4,6 +4,8 @@
  }
  
  
+
+ /* navbar starts*/
  header {
 
     background: url('../images/tennis.jpg');
@@ -17,4 +19,27 @@
 .navlist ul li { 
     display: inline;
     margin-left: 50px;
+    color: #fff;
+}
+
+.navlist p {
+
+    color: #fff;
+}
+
+/* navbar ends */ 
+
+.contactus-container {
+
+    text-align: center;
+}
+
+.form-container form  {
+
+    text-align: center;
+}
+
+.form-container input {
+
+    display: block;
 }
