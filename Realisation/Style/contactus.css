@@ -35,13 +35,13 @@ body {
     color: #fff;
     font-family: var(--universal-font);
     font-weight: bolder;
-    transform: translate(120px, 30%);
-
+    transform: scale(2.5);
 }
-.navlist ul li:hover {
+  li:hover {
 
-    transform: translate(120px, 30%);
     opacity: 0.6;
+    transform: scale(2.5);
+
 }
 .navlist p {
 
