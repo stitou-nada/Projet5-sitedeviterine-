@@ -39,13 +39,12 @@ body {
     color: #fff;
     font-family: var(--universal-font);
     font-weight: bolder;
-    transform: translateZ(20px);
 
 }
   .navlist ul li:hover {
 
     opacity: 0.6;
-    transform: translateZ(20px);
+    transform: translate(20px);
 
 }
 .navlist p {
@@ -71,21 +70,18 @@ body {
     margin-top: 20px;
     font-size: 1.4rem;
     color: green;
+    
 }
 
 .form-container form  {
  
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    margin-top: 20px;
-
+text-align: center;
+margin-top: 20px;
 
 }
 
 .form-container input {
 
-    display: block;
     width: 550px;
     margin-bottom: 20px;
     height: 44px;
@@ -106,6 +102,7 @@ body {
     background-color: green;
     font-weight: bolder;
     cursor: pointer;
+    margin-top: 10px;
 
 }
 
@@ -119,9 +116,15 @@ body {
     border-radius: 7px;
     
 }
-.button-container {
 
-    float: right;
-    margin-right: 31px;
+/* form end */
+
+@media only screen and (min-width: 48em) {
+
+.logo-container {
+
+    text-align: center;
 }
 
+        
+}
