@@ -70,6 +70,7 @@ body {
     font-family: var(--universal-font);
     margin-top: 20px;
     font-size: 1.4rem;
+    color: green;
 }
 
 .form-container form  {
@@ -90,6 +91,28 @@ body {
     height: 44px;
     border-radius: 7px;
     border: solid 0.5px grey;
+    padding-left: 20px;
     
 
+}
+
+.form-container #bt {
+
+    width: 130px;
+    padding-left: 0px;
+    border-radius: 7px;
+    color: #fff;
+    font-family: var(--universal-font);
+    background-color: green;
+    font-weight: bolder;
+}
+
+.form-container textarea {
+    resize: none;
+    width: 550px;
+    height: 200px;
+    padding-left: 20px;
+    opacity: 0.6;
+    padding-top: 10px;
+    border-radius: 7px;
 }
