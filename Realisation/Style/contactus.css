@@ -12,5 +12,9 @@
     background-size: cover;
     height: 400px;
 
-    
+}
+
+.navlist ul li { 
+    display: inline;
+    margin-left: 50px;
 }
