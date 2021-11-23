@@ -1,5 +1,5 @@
-body {
+ body {
 
-    background-image: url(/Images/tennis.jpg);
+    background: url("Realisation\Images\tennis.jpg") no-repeat ;
+    min-height: 100%;
 }
-
