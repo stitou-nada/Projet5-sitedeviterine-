@@ -1,3 +1,10 @@
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+ :root {
+
+    --universal-font:'Roboto', sans-serif;
+ }
  * {
      margin: 0;
      padding: 0;
@@ -11,23 +18,43 @@ body {
  /* navbar starts*/
  header {
 
-    background: url('../images/tennis.jpg');
+    background: url('../Images/tennis.jpg');
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
     height: 400px;
 
 }
+.navlist {
 
+    padding-top: 30px;
+}
 .navlist ul li { 
     display: inline;
     margin-left: 50px;
     color: #fff;
-}
+    font-family: var(--universal-font);
+    font-weight: bolder;
+    transform: translate(120px, 30%);
 
+}
+.navlist ul li:hover {
+
+    transform: translate(120px, 30%);
+    opacity: 0.6;
+}
 .navlist p {
 
     color: #fff;
+    font-family: var(--universal-font);
+    font-weight: bolder;
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+.navlist a {
+
+    text-decoration: none;
 }
 
 /* navbar ends */ 
