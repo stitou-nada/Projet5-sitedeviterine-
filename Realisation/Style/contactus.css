@@ -105,6 +105,8 @@ body {
     font-family: var(--universal-font);
     background-color: green;
     font-weight: bolder;
+    cursor: pointer;
+
 }
 
 .form-container textarea {
@@ -115,4 +117,11 @@ body {
     opacity: 0.6;
     padding-top: 10px;
     border-radius: 7px;
+    
 }
+.button-container {
+
+    float: right;
+    margin-right: 31px;
+}
+
