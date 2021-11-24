@@ -11,25 +11,37 @@ header{
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
-    height: 800px;
+    height: 400px;
 }
 *{
     padding: 0px;
     margin: 0px;
 }
-ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    list-style-type: none;
-    list-style: none;
-    margin-left: 853px;
+a{
+    text-decoration: none;
 }
-.A{
-    color:#B6BC00;
+
+.home{
+    color: #fff;;
 }
-.B{
+.about{
     color: white;
+}
+.contact{
+    color: white; 
+}
+
+.contact:hover {
+
+    opacity: 0.6;
+}
+.about:hover{
+
+    opacity: 0.6;
+}
+.home:hover {
+
+    opacity: 0.6;
 }
 h1{
     color: #ffffff;
@@ -43,4 +55,21 @@ h2{
     margin-left: 1306px;
     margin-top: -19px;
     font-size: 60px; 
+}
+.paraghraph{
+    color: rgb(119, 119, 119);
+    margin-right: 50px;
+    margin-left: 1061px;
+    margin-top: 50px;
+}
+.navlist{
+    padding-top: 30px;
+    font-family: var(--universal-font);
+
+}
+.navlist ul li {
+    margin-left: 50px;
+    display: inline;
+    color: #fff;
+    font-weight: bolder;
 }
