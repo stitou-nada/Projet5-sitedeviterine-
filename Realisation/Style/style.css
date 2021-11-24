@@ -45,6 +45,7 @@ h2{
 }
 .navlist{
     padding-top: 30px;
+    font-family: var(--universal-font);
 
 }
 .navlist ul li {
