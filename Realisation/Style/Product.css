@@ -7,7 +7,7 @@
 
 header {
     display: flex;
-    background-color: yellow;
+    background-color:black;
     margin-left: 3rem;
     margin-right: 1rem;
     padding: 2rem 2rem;
@@ -20,7 +20,7 @@ ul li {
   }
 
 a{
-      color: black;
+      color: white;
       text-decoration: none;
       cursor: pointer;
   }
@@ -42,6 +42,8 @@ section{
 
 .name-product {
     margin-bottom: 3%;
+    font-size: 30px;
+    color: yellowgreen;
 }
 
 .P-discription{
