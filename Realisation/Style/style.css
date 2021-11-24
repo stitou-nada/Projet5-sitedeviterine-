@@ -3,15 +3,36 @@ header{
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
-    height: 500px;
+    height: 800px;
 }
 *{
     padding: 0px;
     margin: 0px;
 }
-nav{
+ul{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     list-style-type: none;
+    list-style: none;
+    margin-left: 853px;
+}
+.A{
+    color:#B6BC00;
+}
+.B{
     color: white;
+}
+h1{
+    color: #ffffff;
+    margin-left: 1117px;
+    margin-top: 311px;
+    font-size: 90px;
+
+}
+h2{
+    color:#B6BC00;
+    margin-left: 1306px;
+    margin-top: -19px;
+    font-size: 60px; 
 }
